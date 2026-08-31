@@ -2,6 +2,10 @@
 
 Learning packaging workflow in Debian/Ubuntu.
 
+A Linux distribution is largely a collection of packages. This includes commonly used tools like `git` and `nginx`, but also core parts of the system such as `bash`, the package manager, the service manager, and even the Linux kernel itself. Users usually do not install these core packages manually, but they are still managed through the package system and can be updated with commands like `sudo apt upgrade`.
+
+So a new distro release, such as Ubuntu 26.04, is essentially a tested combination of specific package versions that are known to work together.
+
 1. Start and log into an Ubuntu machine.
 
 2. Install packaging tools.
