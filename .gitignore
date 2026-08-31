@@ -1,0 +1,22 @@
+# Debian package build outputs
+../*.build
+../*.buildinfo
+../*.changes
+../*.deb
+../*.debian.tar.*
+../*.dsc
+../*.orig.tar.*
+../*.tar.xz
+
+# Local package build directories
+.debhelper/
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/hello-tay/
+debian/hello-tay.substvars
+debian/tmp/
+
+# Autopkgtest and editor noise
+*.autopkgtest*
+*~

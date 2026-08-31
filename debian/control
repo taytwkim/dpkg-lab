@@ -1,0 +1,12 @@
+Source: hello-tay
+Section: utils
+Priority: optional
+Maintainer: Tay Kim <tay@example.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: hello-tay
+Architecture: all
+Depends: ${misc:Depends}
+Description: Simple hello package.
+ A tiny package that installs a hello-tay command.

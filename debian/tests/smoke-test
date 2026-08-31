@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+
+output="$(hello-tay)"
+
+test "$output" = "Hello from my Debian package!"
