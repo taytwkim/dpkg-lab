@@ -6,6 +6,8 @@ A Linux distribution is largely a collection of packages. This includes commonly
 
 So a new distro release, such as Ubuntu 26.04, is essentially a tested combination of specific package versions that are known to work together.
 
+## Getting Started
+
 1. Start and log into an Ubuntu machine.
 
 2. Install packaging tools.
